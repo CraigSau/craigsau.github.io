@@ -1,0 +1,16 @@
+p { 
+    color:black; 
+}
+
+.highlight {
+    color:greenyellow;
+}
+
+h2 {
+    color:blue;
+    background-color: aqua;
+}
+
+h1 {
+    color:red;
+}
