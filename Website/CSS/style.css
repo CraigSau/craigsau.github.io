@@ -1,0 +1,31 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+
+#intro {
+    color: white;
+}
+
+#main {
+    color: white;
+}
+
+a .fab{
+    color: white;
+    font-size: 40px;
+    margin: 70px;
+    
+}
+
+
+
+
+
+
