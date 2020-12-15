@@ -20,10 +20,15 @@ body {
 a .fab{
     color: white;
     font-size: 40px;
-    margin: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
     
 }
 
+#bottom-div {
+    text-align: center;
+}
 
 
 
