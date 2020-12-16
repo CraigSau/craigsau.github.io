@@ -93,8 +93,8 @@ a .fab, .far{
 .navbar li {
     display: table-cell;
     position: relative;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 0%;
      
 }
@@ -102,6 +102,8 @@ a .fab, .far{
 .navbar ul {
    justify-content: center;
    display: flex;
+   margin-right: 5%;
+   margin-left: 5%;
 }
 
 
