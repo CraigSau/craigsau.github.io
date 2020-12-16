@@ -1,16 +1,32 @@
 * {
     font-family: 'Source Code Pro', monospace;
-    
 }
 
 body {
     margin: 0;
     background: black;
     overflow: hidden;
+    color: white;
 }
 
-#intro {
+body .tab {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1, h2 {
     color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
 }
 
 #main {
@@ -30,7 +46,59 @@ a .fab, .far{
     text-align: center;
 }
 
+.navbar li a{
+    text-decoration: none;
+    z-index: 999;
+    color: white;
+    position: sticky;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    font-weight: bold;
+}
 
+.navbar li a.middle-underline {
+    position: relative;
+}
 
+.navbar li a.middle-underline:before {
+    content: "";
+    position: absolute;
+    width: 98%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar li a.middle-underline:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.navbar {
+    text-align: center;
+}
+
+.tab {
+    text-indent: 40px;
+}
+
+.navbar li {
+    display: table-cell;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+     
+}
+
+.navbar ul {
+   justify-content: center;
+   display: flex;
+}
 
 
