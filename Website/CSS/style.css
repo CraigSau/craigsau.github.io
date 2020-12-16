@@ -1,5 +1,6 @@
 * {
     font-family: 'Source Code Pro', monospace;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
     overflow: scroll;
     color: white;
     height: 100%;
-    -webkit-overflow-scrolling: touch;
 }
 
 body .tab {
@@ -50,13 +50,13 @@ a .fab, .far{
 
 .navbar li a{
     text-decoration: none;
-    z-index: 999;
     color: white;
     position: sticky;
     text-transform: uppercase;
     letter-spacing: 0.15em;
     display: inline-block;
     font-weight: bold;
+    margin-right: 10;
 }
 
 .navbar li a.middle-underline {
@@ -83,6 +83,7 @@ a .fab, .far{
 
 .navbar {
     text-align: center;
+    width: device-width;
 }
 
 .tab {
