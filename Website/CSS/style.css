@@ -44,6 +44,10 @@ a .fab, .far{
     
 }
 
+#line {
+    width: device-width;
+}
+
 #bottom-div {
     text-align: center;
 }
