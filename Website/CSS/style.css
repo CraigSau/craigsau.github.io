@@ -8,6 +8,7 @@ body {
     overflow: scroll;
     color: white;
     height: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 body .tab {
