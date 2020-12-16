@@ -48,6 +48,10 @@ a .fab, .far{
     text-align: center;
 }
 
+#notable-div {
+    text-align: center;
+}
+
 .navbar li a{
     text-decoration: none;
     color: white;
@@ -102,8 +106,6 @@ a .fab, .far{
 .navbar ul {
    justify-content: center;
    display: flex;
-   margin-right: 5%;
-   margin-left: 5%;
 }
 
 
