@@ -8,7 +8,6 @@ body {
     background: black;
     overflow: scroll;
     color: white;
-    height: 100%;
 }
 
 body .tab {
@@ -22,9 +21,10 @@ h1, h2 {
     margin-left: 10px;
 }
 
-h3 {
+.notable-section h2, h3, ul {
     margin-right: 25px;
     margin-left: 25px;
+    text-align: left;
 }
 
 h1 {
@@ -53,10 +53,9 @@ a .fab, .far{
 }
 
 #notable-div {
-    text-align: center;
 }
 
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     color: white;
     position: sticky;
@@ -113,3 +112,6 @@ a .fab, .far{
 }
 
 
+.notable-section {
+    float: left;
+}
