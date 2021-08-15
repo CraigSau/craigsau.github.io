@@ -1,0 +1,33 @@
+/* Tag Selectors */
+body {
+  background-color: #323232;
+  margin: 0;
+  font-family: Source Code Pro;
+  font-weight: bold;
+  color: #fff;
+}
+
+main {
+  height: 100vh;
+}
+
+/* Class Selectors */
+.cycle-list {
+  visibility: collapse;
+}
+
+.nav-header {
+  padding: 1rem;
+}
+
+.image-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
