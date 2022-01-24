@@ -1,6 +1,13 @@
 .resume-pdf {
-    width: 70%;
-    height: 925px;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.resume-div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
