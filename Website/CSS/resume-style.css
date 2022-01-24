@@ -1,0 +1,6 @@
+.resume-pdf {
+    width: 70%;
+    height: 925px;
+    display: flex;
+    flex-direction: column;
+}
